@@ -26,7 +26,7 @@ def get_filters():
     months = ['january', 'february', 'march', 'april', 'may', 'june']
     days = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']
     
-    print('Hello! I\'m Fabian. Let\'s explore some US bikeshare data!\n')
+    print('Hello! I\'m fabesview. Let\'s explore some US bikeshare data!\n With this program you will be able to retrieve descriptive statistics for different cities and timeframes.')
    
     # Get user input for city (chicago, new york city, washington). Uses a while loop to handle invalid inputs
     
