@@ -5,7 +5,8 @@ June 2020
 Bikeshare data exploration with pandas  
 
 ### Description
-The project was focused on using python in order to perform descriptive data exploration and analyse ridesharing data for three US cities (Chicago, New York, Washington).
+The project was focused on using python in order to perform descriptive statistical analysis of bikesharing data for three US cities (Chicago, New York, Washington).
+The bikeshare program allows the user to adjust the data cuts by month, day and city in order to explore specific subsets of the data. 
 
 ### Files used
 This project uses bikesharing datasets provided by [Motivate](https://www.motivateco.com/) as part of the Udacity Nanodegree 'Programming for Datascience with Python". 
