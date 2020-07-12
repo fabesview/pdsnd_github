@@ -1,15 +1,33 @@
 ### Date created
-Include the date you created this project and README file.
+June 2020
 
 ### Project Title
-Replace the Project Title
+Bikeshare data exploration with pandas  
 
 ### Description
-Describe what your project is about and what it does
+The project was focused on using python in order to perform descriptive statistical analysis of bikesharing data for three US cities (Chicago, New York, Washington).
+The bikeshare program allows the user to adjust the data cuts by month, day and city in order to explore specific subsets of the data. 
 
 ### Files used
-Include the files used
+This project uses bikesharing datasets provided by [Motivate](https://www.motivateco.com/) as part of the Udacity Nanodegree 'Programming for Datascience with Python". 
+
+* washington.csv
+* new_york_city.csv
+* chicago.csv
+
+### Requirements
+* Python 3.6 or above 
+* Libraries: 
+  * numpy
+  * pandas
+  * time
+  * datetime
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+* [Udacity](https://www.udacity.com/): The instructions and modules in the Nanodegree program were incredibly helpful
+* [Python Standard Library](https://docs.python.org/3/library/)
+* [Numpy Documentation](https://numpy.org/doc/stable/)
+* [Pandas Documentation](https://pandas.pydata.org/docs/)
+
+
 
