@@ -55,6 +55,14 @@ def get_filters():
         print('The day you provided is invalid.')
         day = input('Please indicate the day you want to explore data from: ').lower()
 
+    # Added a check in order for the user to see what inputs he/she provided 
+    print('\nYour input was city = {}, month = {}, day = {}\n'.format(city, month, day))
+    check = input('Is that correct [Yes/No]? ').lower()
+    
+    if check.lower() == 'no':
+        print('Please restart the script to enter other inputs. Exiting program now...')
+        exit() 
+
     print('-'*40)
     return city, month, day
 
