@@ -59,6 +59,7 @@ def get_filters():
     print('\nYour input was city = {}, month = {}, day = {}\n'.format(city, month, day))
     check = input('Is that correct [Yes/No]? ').lower()
     
+    # This if statement checks if user input was "No" and in that case exits the program after printing that program is exited.
     if check.lower() == 'no':
         print('Please restart the script to enter other inputs. Exiting program now...')
         exit() 
